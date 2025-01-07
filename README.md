@@ -1,9 +1,8 @@
 # uberclone
 uber clone app following JavaScript mastery tutorial
+Figma: https://www.figma.com/design/sYYXxLpiyU7CkvRljZzCRH/Ryde---Uber-Clone-App
 
 postgres database name: jsm_uber
-
-npm start
 
 ### run with a cleared cache
 npx expo start -c
@@ -22,6 +21,8 @@ ESLint and prettier
 Clerk for authentication with email authorization
 Postgres with neon with native SQL queries
 
+
+## Notes
 
 
 # Welcome to your Expo app 👋
