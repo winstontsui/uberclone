@@ -1,6 +1,6 @@
 # uberclone
 uber clone app following JavaScript mastery tutorial
-Figma: https://www.figma.com/design/sYYXxLpiyU7CkvRljZzCRH/Ryde---Uber-Clone-App
+Figma: https://www.figma.com/design/sYYXxLpiyU7CkvRljZzCRH/Ryde---Uber-Clone-App?node-id=0-1&p=f
 
 postgres database name: jsm_uber
 
