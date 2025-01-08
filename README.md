@@ -10,6 +10,7 @@ npx expo start -c
 Using:
 React native
 Expo Router for file based navigation
+Clerk for email authentication
 Zustand for global state management
 Native Wind for styling
 Expo API Routes
