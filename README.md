@@ -7,21 +7,22 @@ postgres database name: jsm_uber
 ### run with a cleared cache
 npx expo start -c
 
-Using:
-React native
-Expo Router for file based navigation
-Clerk for email authentication
-Zustand for global state management
-Native Wind for styling
-Expo API Routes
-Stripe payments API
-Native fetching with custom hooks
-Advanced reusable components
-Typescript
-ESLint and prettier
-Clerk for authentication with email authorization
-Postgres with neon with native SQL queries
-
+Using: <br>
+- React native
+- Expo Router for file based navigation
+- Clerk for email authentication
+- Zustand for global state management
+- Native Wind for styling
+- Expo API Routes
+- Stripe payments API
+- Native fetching with custom hooks
+- Advanced reusable components
+- Typescript
+- ESLint and prettier
+- Clerk for authentication with email authorization
+- Postgres with neon with native SQL queries
+- GEOApify Static Map API
+- Google Cloud: Places API, Directions API
 
 ## Notes
 
