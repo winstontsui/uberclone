@@ -9,7 +9,7 @@ npx expo start -c
 
 Using: <br>
 - React native
-- Expo Router for file based navigation
+- Expo Router for file based navigation 
 - Clerk for email authentication
 - Zustand for global state management
 - Native Wind for styling
@@ -19,10 +19,10 @@ Using: <br>
 - Advanced reusable components
 - Typescript
 - ESLint and prettier
-- Clerk for authentication with email authorization
-- Postgres with neon with native SQL queries
-- GEOApify Static Map API
-- Google Cloud: Places API, Directions API
+- Clerk for authentication with email authorization (https://dashboard.clerk.com/apps/app_2rIL0aFlVSm8ZgYmxIuPVH0wdiw/instances/ins_2rIL0aaumul1VY06riDSRdRHK5a/users)
+- Postgres with neon with native SQL queries (https://console.neon.tech/app/projects/lively-lab-80486136/branches/br-white-boat-a5w6hkmc/tables?database=jsm_uber)
+- GEOApify Static Map API (https://myprojects.geoapify.com/api/AaXXefybPDeLI7dMvVjb/keys)
+- Google Cloud: Places API, Directions API (https://console.cloud.google.com/apis/credentials?inv=1&invt=AbmVVg&project=utopian-catfish-447222-t7)
 
 ## Notes
 
