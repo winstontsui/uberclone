@@ -6,10 +6,9 @@ import { ReactNativeModal } from "react-native-modal";
 
 import CustomButton from "@/components/CustomButton";
 import InputField from "@/components/InputField";
-// import OAuth from "@/components/OAuth";
+import OAuth from "@/components/OAuth";
 import { icons, images } from "@/constants";
 import { fetchAPI } from "@/lib/fetch";
-// import { fetchAPI } from "@/lib/fetch";
 
 const SignUp = () => {
   const { isLoaded, signUp, setActive } = useSignUp();
@@ -122,7 +121,7 @@ const SignUp = () => {
             onPress={onSignUpPress}
             className="mt-6"
           />
-          {/* <OAuth /> */}
+          <OAuth />
           <Link
             href="/sign-in"
             className="text-lg text-center text-general-200 mt-10"

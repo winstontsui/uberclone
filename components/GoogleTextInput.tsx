@@ -21,6 +21,7 @@ const GoogleTextInput = ({
         fetchDetails={true}
         placeholder="Search"
         debounce={200}
+        listViewDisplayed={false}
         styles={{
           textInputContainer: {
             alignItems: "center",

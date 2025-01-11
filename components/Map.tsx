@@ -134,7 +134,7 @@ const Map = () => {
             }}
             apikey={directionsAPI!}
             strokeColor="#0286FF"
-            strokeWidth={2}
+            strokeWidth={4}
           />
         </>
       )}

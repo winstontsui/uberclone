@@ -1,5 +1,5 @@
 import { router } from "expo-router";
-import { Text, View } from "react-native";
+import { KeyboardAvoidingView, Platform, Text, View } from "react-native";
 
 import CustomButton from "@/components/CustomButton";
 import GoogleTextInput from "@/components/GoogleTextInput";
@@ -16,37 +16,42 @@ const FindRide = () => {
   } = useLocationStore();
 
   return (
-    <RideLayout title="Ride">
-      <View className="my-3">
-        <Text className="text-lg font-JakartaSemiBold mb-3">From</Text>
+    <KeyboardAvoidingView
+      style={{ flex: 1 }}
+      behavior={Platform.OS === "ios" ? "padding" : "height"}
+    >
+      <RideLayout title="Ride">
+        <View className="my-3">
+          <Text className="text-lg font-JakartaSemiBold mb-3">From</Text>
 
-        <GoogleTextInput
-          icon={icons.target}
-          initialLocation={userAddress!}
-          containerStyle="bg-neutral-100"
-          textInputBackgroundColor="#f5f5f5"
-          handlePress={(location) => setUserLocation(location)}
+          <GoogleTextInput
+            icon={icons.target}
+            initialLocation={userAddress!}
+            containerStyle="bg-neutral-100"
+            textInputBackgroundColor="#f5f5f5"
+            handlePress={(location) => setUserLocation(location)}
+          />
+        </View>
+
+        <View className="my-3">
+          <Text className="text-lg font-JakartaSemiBold mb-3">To</Text>
+
+          <GoogleTextInput
+            icon={icons.map}
+            initialLocation={destinationAddress!}
+            containerStyle="bg-neutral-100"
+            textInputBackgroundColor="transparent"
+            handlePress={(location) => setDestinationLocation(location)}
+          />
+        </View>
+
+        <CustomButton
+          title="Find Now"
+          onPress={() => router.push(`/(root)/confirm-ride`)}
+          className="mt-5"
         />
-      </View>
-
-      <View className="my-3">
-        <Text className="text-lg font-JakartaSemiBold mb-3">To</Text>
-
-        <GoogleTextInput
-          icon={icons.map}
-          initialLocation={destinationAddress!}
-          containerStyle="bg-neutral-100"
-          textInputBackgroundColor="transparent"
-          handlePress={(location) => setDestinationLocation(location)}
-        />
-      </View>
-
-      <CustomButton
-        title="Find Now"
-        onPress={() => router.push(`/(root)/confirm-ride`)}
-        className="mt-5"
-      />
-    </RideLayout>
+      </RideLayout>
+    </KeyboardAvoidingView>
   );
 };
 

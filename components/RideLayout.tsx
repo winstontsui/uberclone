@@ -45,7 +45,7 @@ const RideLayout = ({
 
         <BottomSheet
           ref={bottomSheetRef}
-          snapPoints={snapPoints || ["40%", "85%"]}
+          snapPoints={snapPoints || ["53%", "85%"]}
           index={0}
         >
           {title === "Choose a Rider" ? (
