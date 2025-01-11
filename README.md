@@ -23,6 +23,7 @@ Using: <br>
 - Postgres with neon with native SQL queries (https://console.neon.tech/app/projects/lively-lab-80486136/branches/br-white-boat-a5w6hkmc/tables?database=jsm_uber)
 - GEOApify Static Map API (https://myprojects.geoapify.com/api/AaXXefybPDeLI7dMvVjb/keys)
 - Google Cloud: Places API, Directions API (https://console.cloud.google.com/apis/credentials?inv=1&invt=AbmVVg&project=utopian-catfish-447222-t7)
+- Stripe for payment implementation (https://dashboard.stripe.com/test/workbench/overview)
 
 ## Notes
 
