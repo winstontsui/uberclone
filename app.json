@@ -4,7 +4,7 @@
     "slug": "uberclone",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/uber.svg",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash":{
