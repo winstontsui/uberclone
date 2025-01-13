@@ -1,10 +1,40 @@
-# uberclone
-uber clone app following JavaScript mastery tutorial
+# uberclone app
+
+## Features:
+1. Introductory welcome screen. Expo Router for navigation. <br>
+<img src="demoImages/2getStartedPage.PNG" alt="Alternative Text" width="150" />
+2. Account creation page using react native and nativewind. <br>
+<img src="demoImages/1createAccountPage.PNG" alt="Alternative Text" width="150" />
+3. Clerk for two-factor authentication. A verification code is sent to the user's email. <br>
+<img src="demoImages/3twoFactorAuthentication.PNG" alt="Alternative Text" width="150" />
+4. A confirmation modal confirming successful authentication. <br>
+<img src="demoImages/4SuccessfulAuthentication.PNG" alt="Alternative Text" width="150" />
+5. Custom OAuth login is also allowed. <br>
+<img src="demoImages/5OAuthAuthentication.PNG" alt="Alternative Text" width="150" />
+6. Main dashboard page. GEOApify API for map rendering and Google Places API. <br>
+<img src="demoImages/6mainScreen.PNG" alt="Alternative Text" width="150" />
+7. Google Maps Directions API and GEOApify Static Map API. <br>
+<img src="demoImages/7Directions.PNG" alt="Alternative Text" width="150" />
+8. Select available drivers from database. <br>
+<img src="demoImages/8ChooseDriver.PNG" alt="Alternative Text" width="150" />
+9. Book a ride and enter payment details using Stripe. <br>
+<img src="demoImages/9Payment.PNG" alt="Alternative Text" width="150" />
+10. Confirmation modal. <br>
+<img src="demoImages/10SuccessfulPayment.PNG" alt="Alternative Text" width="150" />
+11. Ride history appears here! <br>
+<img src="demoImages/11RideHistory.PNG" alt="Alternative Text" width="150" />
+12. Postgres db showing nearby drivers. <br>
+<img src="demoImages/12PostgresDatabase.png" alt="Alternative Text" width="600" />
+13. Mock user information, id and password with Clerk.<br>
+<img src="demoImages/13ClerkUsers.png" alt="Alternative Text" width="600" />
+14. Payment info with Stripe! <br>
+<img src="demoImages/14StripePayment.png" alt="Alternative Text" width="600" />
+uber clone app following JavaScript mastery tutorial. Credits to JavaScript mastery tutorial.(https://www.youtube.com/watch?v=kmy_YNhl0mw)
 Figma: https://www.figma.com/design/sYYXxLpiyU7CkvRljZzCRH/Ryde---Uber-Clone-App?node-id=0-1&p=f
 
 postgres database name: jsm_uber
 
-### run with a cleared cache
+run with a cleared cache:
 npx expo start -c
 
 Using: <br>

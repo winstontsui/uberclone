@@ -88,7 +88,7 @@ export const onboarding = [
   },
   {
     id: 3,
-    title: "Your ride, your way. Let's go!",
+    title: "Your ride, your way. Get started now!",
     description:
       "Enter your destination, sit back, and let us take care of the rest.",
     image: images.onboarding3,
