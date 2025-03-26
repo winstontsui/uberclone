@@ -56,7 +56,7 @@ Using: <br>
 - Stripe for payment implementation (https://dashboard.stripe.com/test/workbench/overview)
 
 ## Notes
-
+I followed this tutorial to build the application: https://www.youtube.com/watch?v=kmy_YNhl0mw
 
 # Welcome to your Expo app 👋
 
